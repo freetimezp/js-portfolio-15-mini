@@ -44,23 +44,23 @@ const Home = () => {
                 loaded={particlesLoaded}
             />
 
-            <div className='w-full h-full container mx-auto md:px-10 items-center text-center grid grid-cols-12 relative'>
-                <div className='col-span-8'>
+            <div className='w-full h-full container mx-auto px-5 py-5 md:px-10 items-center text-center grid grid-cols-12 relative break-words grid-flow-row-dense'>
+                <div className='col-span-12 md:col-span-8 order-2 md:order-1'>
                     <div className='flex flex-col text-left gap-5'>
                         <Fade right cascade>
-                            <p className='text-2xl'>Hi, I'm</p>
+                            <p className='text-xl md:text-2xl'>Hi, I'm</p>
                         </Fade>
                         <Zoom right cascade duration={2500}>
-                            <h1 className='text-8xl'>Charlotte Harper</h1>
+                            <h1 className='text-4xl md:text-8xl'>Charlotte Harper</h1>
                         </Zoom>
                         <Fade right cascade>
-                            <h2 className='text-4xl'>Web Designer</h2>
+                            <h2 className='text-2xl md:text-4xl'>Web Designer</h2>
                         </Fade>
                     </div>
                     <Fade bottom duration={2000}>
-                        <div className='mt-10 text-left font-bold backdrop-blur-xl rounded-2xl shadow-md p-10 w-fit'>
+                        <div className='mt-10 text-left font-bold backdrop-blur-xl rounded-2xl shadow-md p-4 md:p-10 w-fit my-5'>
                             <p className='text-2xl text-[#dc4646]'>Contact Me {'{'}</p>
-                            <p className='text-xl text-[#702929] leading-10'>
+                            <p className='text-base md:text-xl text-[#702929] leading-10'>
                                 &nbsp; Email: charlotte.harper@gmail.com <br />
                                 &nbsp; Phone: +38 123 456-789-1 <br />
                                 &nbsp; Github: https://github.com/freetimezp <br />
@@ -69,7 +69,7 @@ const Home = () => {
                         </div>
                     </Fade>
                 </div>
-                <div className='col-span-4 p-5'>
+                <div className='col-span-12 md:col-span-4 p-2 pb-4 md:p-5 order-1 md:order-2'>
                     <Fade top duration={2000}>
                         <div className='overflow-hidden rounded-2xl w-full relative'>
                             <img
