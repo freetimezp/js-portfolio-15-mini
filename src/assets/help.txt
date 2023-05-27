@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=CJDSma9q_sc
+https://fonts.google.com/
+https://fontawesome.com/
+https://tailwindcss.com/
+https://sass-lang.com/
+https://www.pexels.com/
+https://www.npmjs.com/package/react-tsparticles
