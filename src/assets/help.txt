@@ -5,3 +5,4 @@ https://tailwindcss.com/
 https://sass-lang.com/
 https://www.pexels.com/
 https://www.npmjs.com/package/react-tsparticles
+https://www.react-reveal.com/
