@@ -5,19 +5,18 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-//react reveal
-import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
-
 //import options for particles 
 import config from './particlesData.js';
 
 import homeImg from '../../assets/images/home.jpg';
 
 const Home = () => {
+    const Fade = require("react-reveal/Fade");
+    const Zoom = require("react-reveal/Zoom");
+
     //particles animation
     const particlesInit = useCallback(async engine => {
-        console.log(engine);
+        //console.log(engine);
         // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
         // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
         // starting from v2 you can add only the features you need reducing the bundle size
